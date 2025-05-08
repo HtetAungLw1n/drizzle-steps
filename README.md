@@ -4,7 +4,7 @@ Steps is a full-stack CRUD application built with **Next.js** and **PostgreSQL**
 
 ---
 
-![App UI](./public/steps.png)
+![App UI](./steps.png)
 
 ---
 
@@ -35,3 +35,10 @@ This is my first project with Next.js. So, I learned
 - How server-side rendering works in Next.js
 - Connecting and querying a PostgreSQL database
 - Setting up environment variables for DB connections
+
+---
+
+## 🧠 Problems & How I Solved Them
+
+- I missed a column in the database when writing the schema, so I had to update it and re-run the migration. Minor setback, but a good reminder to double-check the schema before committing.
+- I wasn't familiar with Drizzle's new syntax at first, so I had to keep jumping back to the docs. It was a bit of a learning curve, but now I feel way more confident writing it on my own.
