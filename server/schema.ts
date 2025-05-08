@@ -1,6 +1,7 @@
 import { pgTable, serial, text } from "drizzle-orm/pg-core";
 
-export const todolist = pgTable("todolist", {
+export const steps = pgTable("steps", {
   id: serial("id").primaryKey(),
   title: text("title").notNull(),
+  description: text("description").notNull(),
 });

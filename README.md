@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪜 Steps
 
-## Getting Started
+Steps is a full-stack CRUD application built with **Next.js** and **PostgreSQL**, designed to manage and track... well, anything that requires steps 😄 (tasks, goals, projects). It's a simple but powerful demo of modern web development with server-side rendering, API routes, and database integration.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![App UI](./public/steps.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Database:** [PostgreSQL](https://www.postgresql.org/)
+- **ORM / DB Tooling:** Drizzle
+- **Styling:** Tailwind
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Create, Read, Update, Delete "steps"
+- Responsive UI
+- Server-side rendering (SSR)
+- Fully connected to PostgreSQL for persistent data
+- Error handling and form validation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📚 What I Learned
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This is my first project with Next.js. So, I learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- How to structure the folder and file.
+- How server-side rendering works in Next.js
+- Connecting and querying a PostgreSQL database
+- Setting up environment variables for DB connections
