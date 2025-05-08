@@ -1,10 +1,10 @@
 # 🪜 Steps
 
-Steps is a full-stack CRUD application built with **Next.js** and **PostgreSQL**, designed to manage and track... well, anything that requires steps 😄 (tasks, goals, projects). It's a simple but powerful demo of modern web development with server-side rendering, API routes, and database integration.
+Steps is a full-stack CRUD application built with **Next.js** and **PostgreSQL**, designed to manage and track, anything that requires steps(tasks, goals, projects). It's a simple but powerful demo of modern web development with server-side rendering, API routes, and database integration.
 
 ---
 
-![App UI](./steps.png)
+![App UI](./public/steps.png)
 
 ---
 
